@@ -1,0 +1,83 @@
+/*------- SHARED STYLES --------*/
+/*General Styles*/
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+* {
+	box-sizing: border-box;
+}
+.wrapper {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 10%;
+}
+
+/*Navigation styles*/
+.navTop {
+	margin: 0;
+	position: fixed;
+	width:100%;
+	top: 0;
+	background: black;
+	color: lightgrey;
+	z-index: 10;
+	font-size: 14px;
+}
+.welcome {
+	float:left;
+}
+
+.phone, .email { 
+	float:right;
+	padding-left: 20px;
+}
+
+.navBot {
+	margin: 0;
+	position: fixed;
+	width:100%;
+	top:44px;
+	background: rgba(0,0,0,0.5);
+	z-index: 10;
+}
+
+.navLogo {
+	float:left;
+}
+
+.navMenu {
+	float:right;
+}
+.navMenu li {
+	display: inline-block;
+}
+
+/*Footer styles*/
+
+
+
+/*------- HOME --------*/
+/*Jumbotron styles*/
+.jumbotron {
+	margin-top: 94px;
+}
+
+/*About styles*/
+
+/*Specials styles*/
+
+/*Reservation styles*/
+
+/*Services styles*/
+
