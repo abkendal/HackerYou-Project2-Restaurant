@@ -17,6 +17,16 @@
 * {
 	box-sizing: border-box;
 }
+body {
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {
+	font-family: 'Aguafina Script', cursive;
+}
+h2 {
+	font-family: 'Aguafina Script', cursive;
+}
 .wrapper {
 	max-width: 1280px;
 	margin: 0 auto;
@@ -50,14 +60,25 @@
 	top:44px;
 	background: rgba(0,0,0,0.5);
 	z-index: 10;
+	padding-top: 15px;
+	padding-bottom: 35px;
+}
+.nav-bot a {
+	text-decoration: none;
+	color: white;
+	float:right;
+	padding-left:20px;
 }
 
 .nav-logo {
 	float:left;
 }
-
+.navigation-container a {
+	text-transform: uppercase;
+	font-size: 14px;
+}
 .nav-menu {
-	float:right;
+	/*float:right;*/
 }
 .nav-menu li {
 	display: inline-block;
@@ -70,11 +91,29 @@
 /*------- HOME --------*/
 /*Jumbotron styles*/
 .jumbotron {
-	margin-top: 94px;
-	background: url(assets/home/restaurant-hero-bg.jpg) no-repeat;
-	background-position: cover;
+	height:100vh;
+	background: url(../assets/home/restaurant-hero-bg.jpg) no-repeat center;
+	background-size: cover;
+	color: white;
+	padding: 40vh 0;
 }
-
+.jumbotron h1 {
+	font-size: 72px;
+	font-weight: lighter;
+	margin: 10px 0;
+	position: relative;
+	top: 20px;
+	line-height: 68px;
+}
+.jumbotron h3 {
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 23px;
+}
+.star::after {
+	content: url(../assets/home/white-star.png);
+	padding: 0 25px;
+}
 /*About styles*/
 
 /*Specials styles*/
