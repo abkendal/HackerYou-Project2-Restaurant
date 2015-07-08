@@ -24,7 +24,7 @@
 }
 
 /*Navigation styles*/
-.navTop {
+.nav-top {
 	margin: 0;
 	position: fixed;
 	width:100%;
@@ -43,7 +43,7 @@
 	padding-left: 20px;
 }
 
-.navBot {
+.nav-bot {
 	margin: 0;
 	position: fixed;
 	width:100%;
@@ -52,14 +52,14 @@
 	z-index: 10;
 }
 
-.navLogo {
+.nav-logo {
 	float:left;
 }
 
-.navMenu {
+.nav-menu {
 	float:right;
 }
-.navMenu li {
+.nav-menu li {
 	display: inline-block;
 }
 
@@ -71,6 +71,8 @@
 /*Jumbotron styles*/
 .jumbotron {
 	margin-top: 94px;
+	background: url(assets/home/restaurant-hero-bg.jpg) no-repeat;
+	background-position: cover;
 }
 
 /*About styles*/
