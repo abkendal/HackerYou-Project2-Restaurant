@@ -110,9 +110,33 @@ h2 {
 	text-transform: uppercase;
 	font-size: 23px;
 }
-.star::after {
+.coffee::before {
+	content:" ";
+	width: 25px;
+	height:1px;
+	background: white;
+	display: inline-block;
+	margin-right: 20px;
+	position: relative;
+	bottom: 7px;
+}
+.coffee::after {
 	content: url(../assets/home/white-star.png);
 	padding: 0 25px;
+}
+.bar::after {
+	content: url(../assets/home/white-star.png);
+	padding: 0 25px;
+}
+.restaurant:after {
+	content:" ";
+	width: 25px;
+	height:1px;
+	background: white;
+	display: inline-block;
+	margin-left: 20px;
+	position: relative;
+	bottom: 7px;
 }
 /*About styles*/
 
