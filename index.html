@@ -58,52 +58,69 @@
 		</section><!--/.about -->
 
 		<!-- Specials -->
-		<section class="specials">
-			<img src="assets/home/specials-border.png" alt="Specials border">
-			<h2>Specials</h2>
-			<div class="specials-menu">
-				<div class="specials-appetizers">
-					<p>Appetizers</p>
-					<ul>
-						<li>Grilled Quial	$12</li>
-						<li>Stuffed Jalapenos  $8</li>
-						<li>Spicy Quesadillas  $10</li>
-					</ul>
-				</div>
-				<div class="specials-main">
-					<p>Main</p>
-					<ul>
-						<li>Skirt Steak Tacos  $22</li>
-						<li>Beef Chimichangas  $20</li>
-						<li>Smoky Enchiladas  $26</li>
-					</ul>
-				</div>
-				<div class="specials-desser">
-					<p>Desser</p>
-					<ul>
-						<li>Bisochitos  $8</li>
-						<li>Pastel de Tres Leches  $14</li>
-						<li>Giant Churros  $18</li>
-					</ul>
+		<section class="specials wrapper clearfix">
+			<div class="specials-menu-wrapper">
+				<div class="specials-menu-inner-wrapper">
+					<h2>Specials</h2>
+					<div class="specials-menu clearfix">
+						<div class="specials-section">
+							<p>Appetizers</p>
+							<ul class="clearfix">
+								<li><span class="left">Grilled Quial</span>	<span class="right">$12</span></li>
+								<li><span class="left">Stuffed Jalapenos</span><span class="right">$8</span></li>
+								<li><span class="left">Spicy Quesadillas</span><span class="right">$10</span></li>
+							</ul>
+						</div>
+						<div class="specials-section">
+							<p>Main</p>
+							<ul>
+								<li><span class="left">Skirt Steak Tacos</span><span class="right">$22</span></li>
+								<li><span class="left">Beef Chimichangas</span><span class="right">$20</span></li>
+								<li><span class="left">Smoky Enchiladas</span><span class="right">$26</span></li>
+							</ul>
+						</div>
+						<div class="specials-section">
+							<p>Dessert</p>
+							<ul>
+								<li><span class="left">Bisochitos</span><span class="right">$8</span></li>
+								<li><span class="left">Pastel de Tres Leches</span><span class="right">$14</span></li>
+								<li><span class="left">Giant Churros</span><span class="right">$18</span></li>
+							</ul>
+						</div>
+					</div>
+					<a href="menu.html" class="all-menu">All menu</a><br>
 				</div>
 			</div>
-			<a href="menu.html">All menu</a><br>
-			<img src="" alt="Plates page design" class="plates">
+			<img src="assets/home/cutlery.png" alt="Plates page design" class="plates">
 		</section><!--/.specials -->
 
 		<!--Reservation-->
-		<section class="reservation">
+		<section class="reservation wrapper">
 			<h2>Make Online Reservation</h2>
-			<img src="" alt="Underline">
+			<img src="assets/heading-underlineWhite.png" alt="Underline">
 			<p>Booking a table online is easy and takes just a couple of minutes.</p>
-			<form action="">
-				<input type="text" name="name">
-				<input type="text" name="time">
-				<input type="text" name="date"><br>
-				<input type="text" name="email">
-				<input type="text" name="phone">
-				<input type="text" name"size">
-				<a href="">Book Now</a>
+			<form class="reservation-form" action="">
+				<div class="input-row1 input-margin">
+					<input type="text" name="name" placeholder="Name:">
+				</div>
+				<div class="input-row1 input-margin">
+					<input type="text" name="time" placeholder="Time:">
+				</div>
+				<div class="input-row1">
+					<input type="text" name="date" placeholder="Date:">
+				</div>
+				<div class="input-row21 input-margin">
+					<input type="text" name="email" placeholder="E-mail:">
+				</div>
+				<div class="input-row22 input-margin">
+					<input type="text" name="phone" placeholder="Phone:">
+				</div>
+				<div class="input-row22 input-margin">
+					<input type="text" name"size" placeholder="How people:">
+				</div>
+				<div class="input-row23">
+					<input type="submit" value="Book Now">
+				</div>
 			</form>
 		</section><!--/.reservation -->
 
