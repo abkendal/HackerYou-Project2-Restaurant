@@ -20,6 +20,7 @@
 body {
 	text-align: center;
 	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
 }
 h1 {
 	font-family: 'Aguafina Script', cursive;
@@ -27,10 +28,14 @@ h1 {
 h2 {
 	font-family: 'Aguafina Script', cursive;
 }
+section {
+	padding: 75px 0;
+}
 .wrapper {
 	max-width: 1280px;
 	margin: 0 auto;
-	padding: 0 10%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 /*Navigation styles*/
@@ -52,7 +57,9 @@ h2 {
 	float:right;
 	padding-left: 20px;
 }
-
+.nav-contact .fa {
+	padding: 0 10px 0 20px;
+}
 .nav-bot {
 	margin: 0;
 	position: fixed;
@@ -89,6 +96,12 @@ h2 {
 
 
 /*------- HOME --------*/
+/* Home general styles*/
+.home h2 {
+	font-size: 42px;
+	font-weight: lighter;
+	margin: 0;
+}
 /*Jumbotron styles*/
 .jumbotron {
 	height:100vh;
@@ -128,7 +141,7 @@ h2 {
 	content: url(../assets/home/white-star.png);
 	padding: 0 25px;
 }
-.restaurant:after {
+.restaurant::after {
 	content:" ";
 	width: 25px;
 	height:1px;
@@ -139,8 +152,25 @@ h2 {
 	bottom: 7px;
 }
 /*About styles*/
+.about-info {
+	width: 45%;
+	float:left;
+	padding-top: 50px;
+}
+.about-img {
+	width:45%;
+	float:right;
+}
+.about h4 {
+	font-size: 14px;
+	margin: 0 0 20px 0;
+	font-weight: normal;
+}
 
 /*Specials styles*/
+.specials {
+	background: lightgrey;
+}
 
 /*Reservation styles*/
 
