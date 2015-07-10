@@ -1,5 +1,5 @@
-/*------- SHARED STYLES --------*/
-/*General Styles*/
+/*----------------SHARED STYLES----------------/
+/*----------------General Styles----------------*/
 .clearfix:after {
      visibility: hidden;
      display: block;
@@ -43,7 +43,14 @@ section {
 .right {
 	float:right;
 }
-/*Navigation styles*/
+.four-fifths {
+	width: 80%;
+}
+.one-fifth {
+	width: 20%;
+}
+
+/*----------------Navigation styles----------------*/
 .nav-top {
 	margin: 0;
 	position: fixed;
@@ -79,7 +86,7 @@ section {
 	text-decoration: none;
 	color: white;
 	float:right;
-	padding-left:20px;
+	padding-left:30px;
 }
 
 .nav-logo {
@@ -96,7 +103,7 @@ section {
 	display: inline-block;
 }
 
-/*Footer styles*/
+/*----------------Footer styles----------------*/
 .foot-sec1 {
 	background: url(../assets/header-background.jpg);
 	color: white;
@@ -111,7 +118,7 @@ section {
 .foot-sec1 p {
 	width: 50%;
 	margin: 0 auto;
-	font-weight: lighter;
+	/*font-weight: lighter;*/
 }
 .foot-sec2 {
 	background: #303030;
@@ -124,14 +131,27 @@ section {
 	margin: 10px 0 0 0;
 	padding: 10px 0;
 }
+.f2-border-right {
+	border-right: 2px solid #313131;
+}
 .section2 {
 	width:33%;
 	float:left;
 	text-align: left;
-	padding: 20px;
+	padding: 20px 40px;
+	height: 264px;
 }
-.newsletter {
-	
+.newsletter p {
+	padding-top:10px;
+}
+.newsletter input {
+	width: 100%;
+	line-height: 30px;
+}
+.newsletter input[type=submit]{
+	background: #ff514a;
+	border: 0px;
+	padding: 3px 20px;
 }
 .hours ul {
 	padding: 0;
@@ -159,7 +179,29 @@ section {
 .address-col-lg {
 	width: 90%;
 }
-
+.foot-sec3 {
+	padding: 20px 0;
+	background: #242424;
+	
+}
+.sec3-copy {
+	color: #454545;
+	font-size:14px;
+}
+.nootheme {
+	color: white;
+}
+.sec3-social {
+	color: white;
+}
+.circle-border {
+	background: #2A2A2A;
+	border-radius: 50%;
+	display: inline-block;
+	width: 34px;
+	font-size: 14px;
+	padding: 10px;
+}
 /*------- HOME --------*/
 /* Home general styles*/
 .home h2 {
@@ -318,7 +360,7 @@ section {
 	width: 12%;
 }
 .input-row23 input[type=submit] {
-	background: rgb(232, 81, 63);
+	background: #ff514a;
 	border: 0;
 }
 /*Services styles*/
