@@ -37,7 +37,12 @@ section {
 	padding-left: 15%;
 	padding-right: 15%;
 }
-
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
 /*Navigation styles*/
 .nav-top {
 	margin: 0;
@@ -92,8 +97,68 @@ section {
 }
 
 /*Footer styles*/
+.foot-sec1 {
+	background: url(../assets/header-background.jpg);
+	color: white;
+	padding:40px;
 
+}
+.foot-sec1 h5 {
+	font-weight: lighter;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.foot-sec1 p {
+	width: 50%;
+	margin: 0 auto;
+	font-weight: lighter;
+}
+.foot-sec2 {
+	background: #303030;
+	color: #BFBFBF;
+}
+.foot-sec2 h6 {
+	color: #E3E3E3;
+	font-size: 16px;
+	font-weight: lighter;
+	margin: 10px 0 0 0;
+	padding: 10px 0;
+}
+.section2 {
+	width:33%;
+	float:left;
+	text-align: left;
+	padding: 20px;
+}
+.newsletter {
+	
+}
+.hours ul {
+	padding: 0;
+}
+.hours li{
+	width: 100%;
+	padding: 5px 0;
+	display: inline-block;
+	list-style-type: none;
+}
+.hours-bold {
+	color: white;
 
+}
+.address ul {
+	 list-style-type: none;
+	 padding: 0;
+}
+.address li {
+	line-height: 32px;
+}
+.address-col-sm {
+	width: 10%;
+}
+.address-col-lg {
+	width: 90%;
+}
 
 /*------- HOME --------*/
 /* Home general styles*/
@@ -201,12 +266,6 @@ section {
 	padding: 35px 0;
 	font-weight: 400;
 }
-.left {
-	float:left;
-}
-.right {
-	float:right;
-}
 .all-menu {
 	clear:both;
 	color: black;
@@ -269,7 +328,7 @@ section {
 .services-text {
 	color: grey;
 	width: 80%;
-	margin: 0 auto;
+	margin: 20px auto 0;
 }
 .services-container {
 	margin-top: 100px;
