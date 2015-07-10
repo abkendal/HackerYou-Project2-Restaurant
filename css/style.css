@@ -49,6 +49,12 @@ section {
 .one-fifth {
 	width: 20%;
 }
+.three-tenths {
+	width: 30%;
+}
+.one-third {
+	width: 33%;
+}
 
 /*----------------Navigation styles----------------*/
 .nav-top {
@@ -79,25 +85,30 @@ section {
 	top:44px;
 	background: rgba(0,0,0,0.5);
 	z-index: 10;
-	padding-top: 15px;
-	padding-bottom: 35px;
+	padding-top: 6px;
+ 	padding-bottom: 6px;
 }
 .nav-bot a {
 	text-decoration: none;
 	color: white;
-	float:right;
-	padding-left:30px;
+	float: right;
+	padding-left: 30px;
 }
 
 .nav-logo {
 	float:left;
+	position: relative;
+	top: 8px;
+}
+.navigation-container li {
+	display: inline-block;
 }
 .navigation-container a {
 	text-transform: uppercase;
 	font-size: 14px;
 }
 .nav-menu {
-	/*float:right;*/
+	width: 46%;
 }
 .nav-menu li {
 	display: inline-block;
@@ -188,9 +199,7 @@ section {
 	color: #454545;
 	font-size:14px;
 }
-.nootheme {
-	color: white;
-}
+.nootheme,
 .sec3-social {
 	color: white;
 }
@@ -240,10 +249,7 @@ section {
 	position: relative;
 	bottom: 7px;
 }
-.coffee::after {
-	content: url(../assets/home/white-star.png);
-	padding: 0 25px;
-}
+.coffee::after,
 .bar::after {
 	content: url(../assets/home/white-star.png);
 	padding: 0 25px;
@@ -267,6 +273,9 @@ section {
 .about-img {
 	width:45%;
 	float:right;
+}
+.about-img img{
+	width: 100%;
 }
 .about h4 {
 	font-size: 14px;
@@ -391,3 +400,65 @@ section {
 	top:-64px;
 }
 
+/*------------ MENU -------------*/
+/*Jumbotron styles*/
+.menu-title {
+	/*padding-top: 105px;*/
+	padding: 30px;
+	background: url(../assets/header-background.jpg);
+	color: white;
+}
+.menu-title h1 {
+	padding-top: 105px;
+	font-size: 40px;
+	font-weight: lighter;
+	margin: 0;
+}
+.period-thing {
+	padding: 0 10px;
+}
+/* Menu section styles */
+.menu-section {
+	text-align: left;
+}
+.menu-section h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+}
+.menu-section ul {
+	padding:0 ;
+	margin: 0;
+}
+.menu-section li {
+	list-style-type: none;
+	margin: 20px 2px;
+}
+.menu-section p {
+	font-size: 20px;
+	margin: 0;
+}
+.ingredients {
+	font-size: 14px;
+	color: grey;
+}
+
+/* Gallery section styles */
+.gallery-section {
+	width: 100%;
+	padding: 0;
+}
+.gallery-container {
+	margin:0;
+	padding: 0;
+	position: relative;
+	top: 4px;
+}
+.gallery-container li {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	width: 25%;
+}
+.gallery-container img {
+	width: 100%;
+}
