@@ -462,3 +462,42 @@ section {
 .gallery-container img {
 	width: 100%;
 }
+
+/*------------ EVENTS -------------*/
+.events h3 {
+	font-size: 20px;
+}
+.inner-wrapper {
+	margin: 0 auto;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+.event1-wine {
+	width: 80%;
+	margin-bottom: 20px;
+}
+.event-info li {
+	display: inline-block;
+	list-style-type: none;
+	font-size: 14px;
+}
+ .event-info .fa {
+ 	padding: 0 2px 0 10px;
+ }
+ .event-underline {
+ 	width: 40%;
+ }
+ .google-map {
+ 	margin-top: 50px;
+ 	width: 100%;
+ }
+ .event-btn {
+ 	width: 30%;
+	color: black;
+	text-decoration: none;
+	padding: 10px 40px;
+	border: 2px solid black;
+	font-weight: bold;
+ 	display: inline;
+ 	margin-top: 30px;
+ }

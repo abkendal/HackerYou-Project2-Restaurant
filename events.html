@@ -30,9 +30,9 @@
 					<img class="nav-logo" src="assets/chilli-logo.png" alt="Chilli logo">
 					<nav class="nav-menu clearfix right">
 						<ul class="navigation-container">
-							<li><a href="#home">Home</a></li>
-							<li><a href="#menu">Menu</a></li>
-							<li><a href="#events">Events</a></li>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="menu.html">Menu</a></li>
+							<li><a href="events.html">Events</a></li>
 							<li><a href="#contact">Contacts</a></li>
 						</ul>
 					</nav>
@@ -47,58 +47,104 @@
 	</header>
 	<main>
 		<section class="event1">
-			<img src="" alt="wine glass">
-			<h2>Inceptos habitant blandit class tempus</h2>
-			<ul class="event-info">
-				<li>7:00am - 11:15am</li>
-				<li>01 Nov 2015</li>
-				<li>California</li>
-			</ul>
-			<img src="" alt="Underline">
-			<p>Inceptos habitant blandit class tempus lectus platea diam conubia ante netus consequat pretium aliquam blandit, convallis ultrices ullamcorper semper cubilia etiam sodales donec class sem risus imperdiet curabitur duis eu ultricies tortor malesuada curabitur consectetur odio, taciti praesent lobortis dapibus nibh mollis imperdiet, quis quam volutpat proin ultricies mollis placerat faucibus suspendisse posuere.</p>
-			<p>Adipiscing etiam habitant tincidunt rutrum elementum eget nullam et eleifend vivamus integer hendrerit varius et non, rutrum ut aenean egestas dolor imperdiet gravida massa ultrices etiam nec felis vestibulum placerat tortor ornare suspendisse facilisis dolor ac scelerisque potenti, inceptos mattis nibh dolor gravida ante fames netus, gravida eu non blandit iaculis ad lobortis turpis euismod per hendrerit vel fusce nisl amet, at ultrices curabitur tempor primis nunc, class integer potenti etiam hendrerit cubilia.</p>
-			<img src="" alt="Underline">
-			<img src="" alt="Google map"> <!-- Make this a real google map -->
-			<a href="#">Priv event</a>
-			<a href="#">Next event</a>
+			<div class="inner-wrapper">
+				<img class="event1-wine" src="assets/events/event-01.jpg" alt="wine glass">
+				<h3>Inceptos habitant blandit class tempus</h3>
+				<ul class="event-info">
+					<li class="event1-time"><i class="fa fa-clock-o"></i>7:00am - 11:15am</li>
+					<li class="event1-date"><i class="fa fa-calendar-o"></i>01 Nov 2015</li>
+					<li class="event1-location"><i class="fa fa-map-marker"></i>California</li>
+				</ul>
+				<img class="event-underline" src="assets/heading-underlineBlack.png" alt="Underline">
+				<p>Inceptos habitant blandit class tempus lectus platea diam conubia ante netus consequat pretium aliquam blandit, convallis ultrices ullamcorper semper cubilia etiam sodales donec class sem risus imperdiet curabitur duis eu ultricies tortor malesuada curabitur consectetur odio, taciti praesent lobortis dapibus nibh mollis imperdiet, quis quam volutpat proin ultricies mollis placerat faucibus suspendisse posuere.</p>
+				<p>Adipiscing etiam habitant tincidunt rutrum elementum eget nullam et eleifend vivamus integer hendrerit varius et non, rutrum ut aenean egestas dolor imperdiet gravida massa ultrices etiam nec felis vestibulum placerat tortor ornare suspendisse facilisis dolor ac scelerisque potenti, inceptos mattis nibh dolor gravida ante fames netus, gravida eu non blandit iaculis ad lobortis turpis euismod per hendrerit vel fusce nisl amet, at ultrices curabitur tempor primis nunc, class integer potenti etiam hendrerit cubilia.</p>
+				<img src="assets/heading-underlineBlack.png" alt="Underline">
+				<img class="google-map"src="assets/events/event-02.jpg" alt="Google map"> <!-- Make this a real google map -->
+				<div class="button-container clearfix">
+					<a href="menu.html" class="event-btn left">Priv Event</a>
+					<a href="menu.html" class="event-btn right">Next Event</a>
+				</div>
+			</div>
 		</section>
 	</main>
 	
-	<footer class="page-footer">
+<footer class="page-footer">
 		<div class="foot-sec1">
-			<img src="" alt="Clear Chilli logo">
+			<img src="assets/chilli-logoWhiteNoText.png" alt="Clear Chilli logo">
 			<h5>Welcome to Chilli Restaurant</h5>
 			<p>Primis orci neque luctus dui justo enim tristique curae, laoreet volutpat aenean purus gravida curae orci eleifend blandit, netus fames aliquam posuere cras quisque mi mollis scelerisque cras dictumst adipiscing class leo nisi curabitur at nam ut in.</p>
 		</div>
-		<div class="foot-sec2">
-			<div class="newsletter">
-				<h6>Newsletter</h6>
-				<p>Doner filet mignon bacon corned beef rump, frankfurter sirloin.</p>
-				<input type="text" name="newsletter">
-				<a href="">></a>
-			</div>
-			<div class="hours">
-				<h6>Open Hours</h6>
-				<ul>
-					<li>Mondays   <span class="hoursBold">Closed</span></li>
-					<li>Tue-Fri  <span class="hoursBold">10am - 12am</span></li>
-					<li>Sat-Sun  <span class="hoursBold">7am - 1am</span></li>
-					<li>Public Holidays  <span class="hoursBold">12pm - 12am</span></li>
-				</ul>
-			</div>
-			<div class="address">
-				<h6></h6>
-				<ul>
-					<li>1600 Blue Amphitheatre Parkway, 
-						Mountain View, CA 94043, USA</li>
-						<li>(212) 620 5682   -   (375) 620 5682</li>
-						<li>support@nootheme.com</li>
+		<div class="foot-sec2 clearfix">
+			<div class="wrapper">
+				<div class="section2 newsletter f2-border-right">
+					<h6>Newsletter</h6>
+					<p>Doner filet mignon bacon corned beef rump, frankfurter sirloin.</p>
+					<div class="four-fifths left">
+						<input type="text" name="newsletter">
+					</div>
+					<div class="one-fifth left">
+						<input type="submit" value=">">
+					</div>
+				</div>
+				<div class="section2 hours f2-border-right">
+					<h6>Open Hours</h6>
+					<ul>
+						<li>
+							<span class="left">Mondays</span>  
+							<span class="hours-bold right">Closed</span>
+						</li>
+						<li>
+							<span class="left">Tue-Fri</span>  
+							<span class="hours-bold right">10am - 12am</span>
+						</li>
+						<li>
+							<span class="left">Sat-Sun</span>  
+							<span class="hours-bold right">7am - 1am</span>
+						</li>
+						<li><span class="left">Public Holidays</span>  <span class="hours-bold right">12pm - 12am</span></li>
+					</ul>
+				</div>
+				<div class="section2 address">
+					<h6>Address</h6>
+					<ul>
+						<li>
+							<div class="left address-col-sm">
+								<i class="fa fa-map-marker"></i>
+							</div>
+							<div class="left address-col-lg">1600 Blue Amphitheatre Parkway, 
+							Mountain View, CA 94043, USA
+							</div>
+						</li>
+						<li>
+							<div class="left address-col-sm">
+								<i class="fa fa-phone"></i>
+							</div> 
+							<div class="left address-col-lg">12) 620 5682   -   (375) 620 5682
+							</div>
+						</li>
+						<li>
+							<div class="left address-col-sm">
+								<i class="fa fa-envelope"></i>
+							</div> 
+							<div class="left address-col-lg">support@nootheme.com
+							</div>
+						</li>
 					</ul>
 				</div>
 			</div>
-			<div class="foot-sec3">
-
+		</div>
+		<div class="foot-sec3">
+			<div class="sec3-copy">
+				<p>Copyright © 2015 CHILLI Restaurant. Theme by <span class="nootheme">Nootheme</span></p>
 			</div>
-		</footer>
+			<div class="sec3-social">
+				<span class="sec3-facebook circle-border"><i class="fa fa-facebook"></i></span>
+				<span class="sec3-twitter circle-border"><i class="fa fa-twitter"></i></span>
+				<span class="sec3-google circle-border"><i class="fa fa-google"></i></span>
+				<span class="sec3-pinterest circle-border"><i class="fa fa-pinterest"></i></span>
+			</div>
+		</div>
+	</footer>
+
 </body>
 </html>
