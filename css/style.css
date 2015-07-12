@@ -67,7 +67,6 @@ a:hover {
 }
 .nav-top {
 	margin: 0;
-	/*position: fixed;*/
 	width:100%;
 	top: 0;
 	background: black;
@@ -88,7 +87,6 @@ a:hover {
 }
 .nav-bot {
 	margin: 0;
-	/*position: fixed;*/
 	width:100%;
 	top:44px;
 	background: rgba(0,0,0,0.5);
@@ -137,7 +135,7 @@ a:hover {
 .foot-sec1 p {
 	width: 50%;
 	margin: 0 auto;
-	/*font-weight: lighter;*/
+
 }
 .foot-sec2 {
 	background: #303030;
